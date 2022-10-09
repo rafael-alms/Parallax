@@ -61,15 +61,10 @@ p{
 }
 
 @media (max-width: 769px) {
-    .texto{
-        z-index: 9;
-    }
-
     .imagem{
         background-size: contain;
         height: 100vh;
         padding: 0;
-        z-index: 1;
     }
 
     section:nth-of-type(1){
