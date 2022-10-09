@@ -61,38 +61,34 @@ p{
 }
 
 @media (max-width: 769px) {
-    section:nth-of-type(1){
-        background-image: url("imagens/imagem1m.jpg");
+    .texto{
+        z-index: 9;
+    }
+
+    .imagem{
         background-size: contain;
         height: 100vh;
         padding: 0;
+        z-index: 1;
+    }
+
+    section:nth-of-type(1){
+        background-image: url("imagens/imagem1m.jpg");
     }
     
     section:nth-of-type(3){
         background-image: url("imagens/imagem2m.jpg");
-        background-size: contain;
-        height: 100vh;
-        padding: 0;
     }
     
     section:nth-of-type(5){
         background-image: url("imagens/imagem3m.jpg");
-        background-size: contain;
-        height: 100vh;
-        padding: 0;
     }
     
     section:nth-of-type(7){
         background-image: url("imagens/imagem4m.jpg");
-        background-size: contain;
-        height: 100vh;
-        padding: 0;
     }
     
     section:nth-of-type(9){
         background-image: url("imagens/imagem5m.jpg");
-        background-size: contain;
-        height: 100vh;
-        padding: 0;
     }
 }
